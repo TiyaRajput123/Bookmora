@@ -9,7 +9,7 @@ The app focuses on **user privacy**, **real-time updates**, and a smooth **Googl
 
 - 🌐 **Live Demo:** [https://bookmora.vercel.app/](https://bookmora.vercel.app/)  
 - 📂 **GitHub Repository:** [https://github.com/TiyaRajput123/Bookmora.git
-- (https://github.com/TiyaRajput123/Bookmora.git)
+
 
 ---
 
