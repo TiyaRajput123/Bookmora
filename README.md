@@ -1,16 +1,15 @@
 <h1 align="center">📚 Bookmora - Smart Bookmark App</h1>
 <h3 align="center">Effortlessly save, organize, and access your bookmarks in real-time with Google OAuth authentication. 
 </h3> 
+---
 
 ## 💫 About Project
 **Bookmora** is a **smart bookmark app** that allows users to save, manage, and organize bookmarks efficiently.  
 The app focuses on **user privacy**, **real-time updates**, and a smooth **Google OAuth login experience**.  
 
 - 🌐 **Live Demo:** [https://bookmora.vercel.app/](https://bookmora.vercel.app/)  
-- 📂 **GitHub Repo:** [https://github.com/TiyaRajput123/Bookmora.git](https://github.com/TiyaRajput123/Bookmora.git)
-🔗 Live Demo : https://bookmora.vercel.app/
-
-📂 GitHub Repository : https://github.com/TiyaRajput123/Bookmora.git
+- 📂 **GitHub Repository:** [https://github.com/TiyaRajput123/Bookmora.git
+- (https://github.com/TiyaRajput123/Bookmora.git)
 
 ---
 
@@ -76,6 +75,7 @@ npm install
 Configure environment variables:
 
 NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
+
 NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
 
 
