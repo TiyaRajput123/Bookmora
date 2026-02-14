@@ -1,63 +1,60 @@
-Smart Bookmark App
+<h1 align="center">🚀 Smart Bookmark App</h1>
 
-A simple and real-time bookmark manager where users can securely save and manage their bookmarks using Google OAuth.
+A real-time and secure bookmark manager with Google OAuth integration. Save, manage, and access your bookmarks instantly!
 
 🔗 Live Demo
 
-https://bookmora.vercel.app/
+🌐 Open Live App
 
 📂 GitHub Repository
 
+💻 View Source Code
 
-🛠 Features
+🛠 Key Features
 
-Google OAuth Login – Users can sign up or log in using their Google account only (no email/password).
+🔑 Google OAuth Login – Sign up or log in using your Google account only (no email/password required).
 
-Add Bookmarks – Save bookmarks with URL and title.
+📌 Add Bookmarks – Save bookmarks with title and URL.
 
-Private Bookmarks – Bookmarks are user-specific. No user can see another user’s bookmarks.
+🔒 Private Bookmarks – Each user's bookmarks are private and secure.
 
-Real-time Updates – Bookmark list updates instantly across multiple tabs without page refresh (powered by Supabase Realtime).
+⚡ Real-time Updates – Changes appear instantly across tabs using Supabase Realtime.
 
-Delete Bookmarks – Users can delete their own bookmarks.
+🗑 Delete Bookmarks – Remove bookmarks anytime with a single click.
 
 💻 Tech Stack
-
-Frontend: Next.js (App Router)
-
-Backend/Database: Supabase (Auth, Database, Realtime)
-
-Styling: Tailwind CSS
-
-Deployment: Vercel
-
-🚀 How to Use
+Layer	Technology
+Frontend	Next.js (App Router)
+Backend/Database	Supabase (Auth, Database, Realtime)
+Styling	Tailwind CSS
+Deployment	Vercel
+🎯 How to Use
 
 Open the live app here
 .
 
 Log in with your Google account.
 
-Add your bookmarks using the form.
+Add bookmarks using the form.
 
-Delete bookmarks using the delete button next to each bookmark.
+Delete bookmarks using the trash icon next to each bookmark.
 
-Open multiple tabs to see real-time updates in action.
+Open multiple tabs to witness real-time updates.
 
 📝 Challenges & Solutions
 
-Challenge: Setting up Supabase Realtime so that bookmark changes appear instantly across tabs.
-Solution: Used Supabase Realtime subscriptions on the bookmarks table filtered by the current user ID.
+Challenge: Realtime updates across tabs.
+Solution: Used Supabase Realtime subscriptions filtered by user ID.
 
-Challenge: Ensuring bookmarks are private for each user.
-Solution: Added row-level security (RLS) policies in Supabase to restrict access to only the logged-in user's bookmarks.
+Challenge: Bookmark privacy for each user.
+Solution: Implemented Row-Level Security (RLS) policies in Supabase.
 
-Challenge: Google OAuth login integration.
-Solution: Configured Supabase Auth with Google provider and handled session management in Next.js App Router.
+Challenge: Integrating Google OAuth login.
+Solution: Configured Supabase Auth with Google provider and managed sessions in Next.js App Router.
 
-📦 Installation (Optional, for local development)
+📦 Installation & Local Setup
 
-Clone the repo:
+Clone the repository:
 
 git clone https://github.com/TiyaRajput123/smart-bookmark-app.git
 
@@ -68,13 +65,13 @@ cd smart-bookmark-app
 npm install
 
 
-Setup environment variables:
+Configure environment variables:
 
 NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
 NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
 
 
-Run locally:
+Run the application locally:
 
 npm run dev
 
