@@ -1,33 +1,47 @@
 <h1 align="center">📚 Bookmora - Smart Bookmark App</h1>
+<h3 align="center">Effortlessly save, organize, and access your bookmarks in real-time with Google OAuth authentication. 
+</h3> 
+---
+## 💫 About Project
+**Bookmora** is a **smart bookmark app** that allows users to save, manage, and organize bookmarks efficiently.  
+The app focuses on **user privacy**, **real-time updates**, and a smooth **Google OAuth login experience**.  
 
-Effortlessly save, organize, and access your bookmarks in real-time with Google OAuth authentication. 
-
+- 🌐 **Live Demo:** [https://bookmora.vercel.app/](https://bookmora.vercel.app/)  
+- 📂 **GitHub Repo:** [https://github.com/TiyaRajput123/Bookmora.git](https://github.com/TiyaRajput123/Bookmora.git)
 🔗 Live Demo : https://bookmora.vercel.app/
 
 📂 GitHub Repository : https://github.com/TiyaRajput123/Bookmora.git
 
-🛠 Key Features
+---
 
-🔑 Google OAuth Login – Sign up or log in using your Google account only (no email/password required).
+## 💻 Tech Stack
+![Next.js](https://img.shields.io/badge/Next.js-%23000000?style=for-the-badge&logo=next.js&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-%2300F2C3?style=for-the-badge&logo=supabase&logoColor=black)
+![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-%2338B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![React](https://img.shields.io/badge/react-%2320232a?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 
-📌 Add Bookmarks – Save bookmarks with title and URL.
+---
+## ⚡ Features
+- ✅ **Google OAuth Login:** Users can sign up and log in using Google only  
+- ✅ **Add Bookmarks:** Users can add bookmarks with a URL and title  
+- ✅ **Private Bookmarks:** Each user's bookmarks are private  
+- ✅ **Real-Time Updates:** Bookmarks update in real-time across tabs  
+- ✅ **Delete Bookmarks:** Users can delete their own bookmarks  
+- ✅ **Responsive UI:** Built with Tailwind CSS for mobile and desktop  
 
-🔒 Private Bookmarks – Each user's bookmarks are private and secure.
+---
 
-⚡ Real-time Updates – Changes appear instantly across tabs using Supabase Realtime.
+## 🛠 How I Built It
+- **Google OAuth authentication** with Supabase  
+- **Realtime database updates** using Supabase Realtime features  
+- **Next.js App Router** for clean frontend routing  
+- **Tailwind CSS** for styling and responsive design
+---
 
-🗑 Delete Bookmarks – Remove bookmarks anytime with a single click.
-
-💻 Tech Stack
-Layer	Technology
-Frontend	Next.js (App Router)
-Backend/Database	Supabase (Auth, Database, Realtime)
-Styling	Tailwind CSS
-Deployment	Vercel
 🎯 How to Use
 
-Open the live app here
-.
+Open the live app here : https://bookmora.vercel.app/
 
 Log in with your Google account.
 
@@ -37,18 +51,16 @@ Delete bookmarks using the trash icon next to each bookmark.
 
 Open multiple tabs to witness real-time updates.
 
-📝 Challenges & Solutions
+## 🏆 Challenges & Solutions
+- **Challenge:** Setting up Google OAuth and ensuring secure authentication  
+  **Solution:** Used Supabase Auth with proper configuration and tested multiple Google accounts  
+- **Challenge:** Real-time bookmark updates across multiple tabs  
+  **Solution:** Implemented Supabase Realtime subscriptions to sync data instantly  
+- **Challenge:** Keeping bookmarks private per user  
+  **Solution:** Created Supabase policies so each user can only access their own bookmarks  
 
-Challenge: Realtime updates across tabs.
-Solution: Used Supabase Realtime subscriptions filtered by user ID.
-
-Challenge: Bookmark privacy for each user.
-Solution: Implemented Row-Level Security (RLS) policies in Supabase.
-
-Challenge: Integrating Google OAuth login.
-Solution: Configured Supabase Auth with Google provider and managed sessions in Next.js App Router.
-
-📦 Installation & Local Setup
+---
+## 📦 Installation & Local Setup
 
 Clone the repository:
 
