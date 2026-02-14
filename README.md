@@ -2,13 +2,9 @@
 
 Effortlessly save, organize, and access your bookmarks in real-time with Google OAuth authentication. 
 
-🔗 Live Demo
+🔗 Live Demo : https://bookmora.vercel.app/
 
-🌐 Open Live App
-
-📂 GitHub Repository
-
-💻 View Source Code
+📂 GitHub Repository :
 
 🛠 Key Features
 
