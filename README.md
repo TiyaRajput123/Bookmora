@@ -1,6 +1,6 @@
-<h1 align="center">🚀 Smart Bookmark App</h1>
+<h1 align="center">📚 Bookmora - Smart Bookmark App</h1>
 
-A real-time and secure bookmark manager with Google OAuth integration. Save, manage, and access your bookmarks instantly!
+Effortlessly save, organize, and access your bookmarks in real-time with Google OAuth authentication. 
 
 🔗 Live Demo
 
