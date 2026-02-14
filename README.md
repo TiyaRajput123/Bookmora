@@ -4,7 +4,7 @@ Effortlessly save, organize, and access your bookmarks in real-time with Google 
 
 🔗 Live Demo : https://bookmora.vercel.app/
 
-📂 GitHub Repository :
+📂 GitHub Repository : https://github.com/TiyaRajput123/Bookmora.git
 
 🛠 Key Features
 
@@ -52,7 +52,7 @@ Solution: Configured Supabase Auth with Google provider and managed sessions in 
 
 Clone the repository:
 
-git clone https://github.com/TiyaRajput123/smart-bookmark-app.git
+git clone https://github.com/TiyaRajput123/Bookmora.git
 
 
 Install dependencies:
