@@ -1,7 +1,7 @@
 <h1 align="center">📚 Bookmora - Smart Bookmark App</h1>
 <h3 align="center">Effortlessly save, organize, and access your bookmarks in real-time with Google OAuth authentication. 
 </h3> 
----
+
 ## 💫 About Project
 **Bookmora** is a **smart bookmark app** that allows users to save, manage, and organize bookmarks efficiently.  
 The app focuses on **user privacy**, **real-time updates**, and a smooth **Google OAuth login experience**.  
